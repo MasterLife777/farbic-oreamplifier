@@ -17,6 +17,9 @@
 	"entrypoints": {
 		"main": [
           "net.masterlife.oreamplifier.OreAmplifier"
+		],
+		"client": [
+			"net.masterlife.oreamplifier.OreAmplifierClient"
 		]
 	},
 	"mixins": [
