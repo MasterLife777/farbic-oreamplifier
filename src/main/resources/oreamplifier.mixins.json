@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "net.masterlife.oreamplifier.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "OreAmplifierMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
