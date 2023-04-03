@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
+
     public static final Item PIECE_OF_DEATH = registerItem("piece_of_death",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
