@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "oreamplifier:death_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "oreamplifier:piece_of_death"
+  }
+}
