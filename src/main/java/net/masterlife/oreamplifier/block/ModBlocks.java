@@ -22,6 +22,9 @@ public class ModBlocks {
     public static final Block DEATH_ORE = registerBlock("death_ore",
             new OreBlock(FabricBlockSettings.of(Material.STONE).requiresTool().strength(3.0f, 3.0f),
                     UniformIntProvider.create(3, 7)));
+    public static final Block DEEPSLATE_DEATH_ORE = registerBlock("deepslate_death_ore",
+            new OreBlock(FabricBlockSettings.of(Material.STONE, MapColor.DEEPSLATE_GRAY).requiresTool().strength(3.0f, 3.0f).sounds(BlockSoundGroup.DEEPSLATE),
+                    UniformIntProvider.create(3, 7)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

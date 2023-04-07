@@ -1,5 +1,6 @@
 {
   "item.oreamplifier.piece_of_death": "Piece of Death",
   "block.oreamplifier.death_block": "Death Block",
-  "block.oreamplifier.death_ore": "Death Ore"
+  "block.oreamplifier.death_ore": "Death Ore",
+  "block.oreamplifier.deepslate_death_ore": "Deepslate Death Ore"
 }
